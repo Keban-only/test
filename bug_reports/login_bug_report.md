@@ -18,7 +18,7 @@
   The system should display a specific error message indicating that the account is locked, such as "Epic sadface: Sorry, this user has been locked out." or similar, to clearly communicate the reason for login failure.
 
 * **Environment:**
-    * **Browser:** Chrome Version 126.0.6478.127 (Official Build) (64-bit) 
-    * **Operating System:** Windows 10 
+    * **Browser:** Chrome Version 126.0.6478.127 
+    * **Operating System:** mac OS 
     * **Application URL:** `https://www.saucedemo.com/`
-    * **Playwright Version:** 1.x.x (or your installed version)
+    * **Playwright Version:** 10.9.2 
