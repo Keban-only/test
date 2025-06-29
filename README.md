@@ -36,3 +36,30 @@ This repository contains automated UI tests for the SauceDemo website and API te
 -   **Package Manager:** npm
 
 ## Project Structure
+```plaintext
+test/
+├── tests/
+│   ├── ui/
+│   │   ├── login.spec.ts   
+│   │   └── purchase.spec.ts 
+│   ├── api/
+│   │   └── posts.spec.ts   
+│   └── fixtures/           
+│       ├── users.json
+│       └── postData.json
+├── page-objects/           
+│   ├── LoginPage.ts
+│   ├── ProductsPage.ts
+│   ├── CartPage.ts
+│   └── CheckoutPage.ts
+├── utils/                  
+│   └── apiHelper.ts        
+├── test_cases/             
+│   ├── ui_test_cases.md
+│   └── api_test_cases.md
+├── bug_reports/            
+│   └── login_bug_report.md
+├── playwright.config.ts    
+├── package.json            
+├── package-lock.json
+├── README.md               
